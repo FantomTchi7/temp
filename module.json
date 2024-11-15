@@ -1,0 +1,124 @@
+{
+  "id": "mad-freecontent",
+  "title": "The MAD Cartographer | Free Content | Battlemap Pack",
+  "description": "<p>A free sampling of Foundry content from The MAD Cartographer!</p>",
+  "version": "12.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "The MAD Cartographer",
+      "email": "info@themadcartographer.com",
+      "url": "https://patreon.com/themadcartographer",
+      "discord": ".harrison",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multi-token-edit",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "mad-freecontent-journals",
+      "label": "TMC | MAD | Free Content",
+      "path": "packs/mad-freecontent-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-freecontent-maps",
+      "label": "TMC | MAD | Free Content",
+      "path": "packs/mad-freecontent-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-freecontent-actors",
+      "label": "TMC | MAD | Free Content",
+      "path": "packs/mad-freecontent-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-freecontent-playlists",
+      "label": "TMC | MAD | Free Content",
+      "path": "packs/mad-freecontent-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-freecontent-prefabs",
+      "label": "TMC Prefabs | Free Content",
+      "path": "packs/mad-freecontent-prefabs",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "esmodules": [
+    "scripts/compendium-import.js",
+    "scripts/init.js"
+  ],
+  "url": "https://www.themadcartographer.com",
+  "manifest": "https://foundryvtt.s3.us-west-2.amazonaws.com/modules/mad-freecontent/module.json",
+  "download": "https://foundryvtt.s3.us-west-2.amazonaws.com/modules/mad-freecontent/mad-freecontent.zip"
+}
